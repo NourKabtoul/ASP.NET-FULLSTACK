@@ -1,0 +1,204 @@
+﻿body 
+{
+    background-color:#e6ffee;
+    font-family:Tahoma;
+}
+
+#headd
+{
+    width:1000px;
+    height:100px;
+    border:solid 1px green;
+    margin: 0 auto;
+    text-align: center;
+}
+#headdd
+{
+    width:1000px;
+    height:70px;
+    border:solid 1px green;
+    margin: 0 auto;
+    text-align: center;
+}
+    #main
+{
+    width:1000px;
+    height:525px;
+    border:solid 1px green;
+    margin: 0 auto;
+    
+    }
+       #mainn
+{
+    width:1000px;
+    height:525px;
+    border:solid 1px green;
+    margin: 0 auto;
+    
+    }
+    #left
+    {
+        float:left;
+        width:200px;
+       
+        height:525px;
+        
+        }
+         #right
+    {
+        float:right;
+        width:796px;
+              height:525px;
+        
+        
+        }
+     #foot
+{
+    width:1000px;
+    height:30px;
+    border:solid 1px green;
+    margin: 0 auto;
+    background:green;
+    color:#fff;
+    text-align:center;
+    vertical-align:middle;
+    
+    
+    }
+    
+    #login
+    {
+        width:300px;
+        height:200px;
+        border:solid 0px green;
+        margin:0 auto;
+        margin-top:120px;
+        
+        }
+        
+        
+     #acc
+     {
+         width:190px;
+         height:120px;
+         border:solid 1px green;
+         float:left;
+         margin:20px;
+         background: linear-gradient(green 80%, #ffff66);
+          
+    
+         } 
+         
+       .acc
+         {              
+          height:30px;
+         border-bottom:solid 2px #fff;
+         font-weight:bold;
+         text-align:center;
+         font-size:18px;
+         color:#fff;
+         padding-top:1px;
+             }
+          .acc1
+         {                       
+          font-weight:bold;
+         text-align:center;
+         font-size:42px;
+         color:#fff;
+         padding-top:2px;
+             }
+           
+        
+   .tbllogin
+   {
+       width:100%;
+       border:solid 1px green;
+      border-bottom-right-radius: 5px;
+       border-bottom-left-radius: 5px;
+        box-shadow:0px 5px 6px 2px #ccc;
+       }
+     .tblloginhead
+   {
+     
+     height:30px;
+     font-size:medium;
+     font-weight:bold;
+     text-align:center;
+     color:#fff;
+       background:green;
+       
+       }
+      .lbl
+      {text-align:right;
+       color:Green;
+          
+          }
+      .txt
+      {
+          border:solid 1px green;
+          width:120px;
+          padding-left:3px;
+          background:#e6ffee;
+          }
+       .btn
+       {
+           background:green;
+           border:solid 2px green;
+           color:#fff;
+           font-weight:bold;
+           width:70px;
+           border-radius:2px;
+           cursor:pointer;
+    margin-top: 0px;
+}
+          .btn:hover
+       {
+           background:#f4f4f4;
+           border:solid 2px green;
+           color:green;
+           font-weight:bold;
+           
+           }
+        .tbl
+        {
+            width:100%;
+            border:solid 1px green;
+            
+            }
+         .tblhead
+   {
+     
+     height:30px;
+     font-size:medium;
+     font-weight:bold;
+     text-align:center;
+     color:#fff;
+       background:green;
+       
+       }
+       
+   .mnu
+   {
+      border:solid 2px green;
+      color:Green;
+      text-align:center;
+      font-size:medium;
+      font-weight:bold;
+       height:45px;
+       width:200px;
+        background:#e6ffee;  cursor:pointer;
+         /*transition: all 1s ease;*/
+       }
+        .mnu:hover
+   {
+      border:solid 5px yellow;
+      color:#fff;
+      text-align:center;
+      font-size:medium;
+      font-weight:bold;
+       height:45px;
+       background:green;
+      
+       }
+       
+      

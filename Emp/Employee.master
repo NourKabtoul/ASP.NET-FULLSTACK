@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Employee.master.cs" Inherits="Employee" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div id="headd">
+        
+         <asp:Image ID="Image1" runat="server" ImageUrl="~/img/plogo700.png" />
+        
+    </div>
+    <div id="mainn"><div id="left">
+        <table class="tbl">
+            <tr>
+                <td class="tblhead">
+                    Welcome to system</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button7" runat="server" CssClass="mnu" Text="MY Account" 
+                        CausesValidation="False" PostBackUrl="~/Emp/MyAccount.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button2" runat="server" CssClass="mnu" Text="Leave" 
+                        CausesValidation="False" PostBackUrl="~/Emp/Leave.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button9" runat="server" CssClass="mnu" Text="Leave Report" 
+                        CausesValidation="False" PostBackUrl="~/Emp/LeaveReport.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button3" runat="server" CssClass="mnu" Text="Salary Report" 
+                        CausesValidation="False" PostBackUrl="~/Emp/SalaryReport.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button8" runat="server" CssClass="mnu" Text="Change Password" 
+                        CausesValidation="False" PostBackUrl="~/Emp/ChangePass.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button6" runat="server" CssClass="mnu" 
+                        PostBackUrl="~/Default.aspx" Text="LogOut" CausesValidation="False" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Image ID="Image2" runat="server" Height="139px" 
+                        ImageUrl="~/img/accounting.png" Width="190px" />
+                </td>
+            </tr>
+        </table>
+        </div><div id="right">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div></div>
+    <div id="foot">Copyrights 2018 @ Payroll System </div>
+    </form>
+</body>
+</html>
